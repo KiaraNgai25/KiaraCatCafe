@@ -1,0 +1,147 @@
+@import "menu-item.css";
+
+/* Element Selector */
+body {
+	background-color: #e4f9ff;
+	font-family: 'Long Cang', cursive;
+}
+
+h1 {
+	letter-spacing: 8px;
+	text-decoration: underline;
+}
+
+p {
+	text-align: justify;
+}
+
+/* Class Selector */
+.carousel {
+	border: 3px solid grey;
+	margin: 0 auto;
+}
+
+.carousel-item img{
+	height: 35vh;
+	width: 100%;
+}
+
+/* ID Selector */
+#navigation-bar{
+	background-color: #ffe0f7;
+}
+
+.nav-link{
+	font-size: 25px;
+}
+
+#sign-in-form{
+	background-color: white;
+}
+
+.form-col{
+	position: absolute;
+	top: 20%;
+	z-index: 10;
+}
+
+
+#nav-bar-icon{
+	border-radius: 50%;
+}
+
+.card{
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.cards a{
+	color: black;
+}
+
+.cards a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+@media (min-width: 768px){
+	 .cards a{
+	 	width: 40%;
+	 }
+/*	.card {
+		height: 100%;
+	}*/
+}
+
+#footer {
+	background-color: #d6e0f0;
+}
+
+#footer ul {
+	list-style-type: none;
+}
+
+#footer ul a {
+	color: black;
+}
+
+#btn-container {
+	flex-direction: column;
+	position: absolute;
+	top: 20%;
+	z-index: 10;
+}
+
+.promo-btn {
+	margin-top: 10px;
+}
+
+#btn-col {
+	position: static;
+}
+
+.pic {
+	width: 100%;
+	height: auto;
+}
+
+@media(max-width: 576px){
+	#btn-container {
+		flex-direction: row;
+		position: relative;
+		width: 100%;
+		bottom: 80%;
+		top: unset;
+		justify-content: space-evenly;
+	}
+}
+
+#page-content {
+	min-height: 95vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
