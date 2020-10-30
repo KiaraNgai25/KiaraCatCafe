@@ -10,6 +10,13 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+
+		<script type="text/javascript">
+			function submitform() {
+				alert("You have submitted the form!");
+			}
+
+		</script>
 	</head>
 
 	<!-- body: page's content -> displayed on the page -->
@@ -18,7 +25,7 @@
 		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffe0f7;">
 		  <a class="navbar-brand" href="index.html">
 		      <img src="images/logo.jpg" id="nav-bar-icon" height="80" alt="" loading="lazy">
-		    </a>
+		  </a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -30,6 +37,9 @@
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="menu.html">Menu</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="location.html">Location</a>
 		      </li>
 		    </ul>
 
@@ -95,7 +105,7 @@
 					  <div class="form-group">
 					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
 					  </div>
-					  <button type="submit" class="btn btn-primary w-100">Sign In</button>
+					  <button type="submit" onclick="submitform()" class="btn btn-primary w-100">Sign In</button>
 					</form>	
 				</div>
 			</div>
@@ -116,6 +126,15 @@
 					  <img src="images/promotion_img.jpg" class="card-img-top" alt="promotion">
 					  <div class="card-body">
 					    <p class="card-text">Some Meow-tastic Promotions</p>
+					  </div>
+					</div>
+				</a>
+
+				<a href="location.html">
+					<div class="card">
+					  <img src="images/cafe-location-logo.jpg" class="card-img-top" alt="location">
+					  <div class="card-body">
+					    <p class="card-text">Kitty-Cafe Branches</p>
 					  </div>
 					</div>
 				</a>
